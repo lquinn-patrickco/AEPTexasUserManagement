@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AEPTexasApplicationSettings>
+  <ApplicationSettings>
+    <ApplicationSetting>
+      <Key>ApplicationName</Key>
+      <Value>AEPTexasUserMMngmnt</Value>
+    </ApplicationSetting>
+  </ApplicationSettings>
+  <SqlConnections>
+    <SqlConnection>
+      <SqlConnectionString>
+        <ApplicationName>AEPTexasUserMMngmnt</ApplicationName>
+        <AsynchronousProcessing>False</AsynchronousProcessing>
+        <ConnectTimeout>40</ConnectTimeout>
+        <ContextConnection>False</ContextConnection>
+        <DataSource>PEI5061\SQLEXPRESS</DataSource>
+        <Encrypt>false</Encrypt>
+        <Enlist>false</Enlist>
+        <FailoverPartner></FailoverPartner>
+        <InitialCatalog>AEPTexasMember</InitialCatalog>
+        <IntegratedSecurity>true</IntegratedSecurity>
+        <Password>bI%R7*Ck</Password>
+        <PersistSecurityInfo>True</PersistSecurityInfo>
+        <Pooling>False</Pooling>
+        <SqlConnectionStringName>SecurityConnectionString</SqlConnectionStringName>
+        <UserID>PATRICK\lquinn</UserID>
+      </SqlConnectionString>
+      <SqlProcedures>
+        <SqlProcedure>
+          <Key>GetPasswordWithFormat</Key>
+          <Value>aspnet_Membership_GetPasswordWithFormat</Value>
+        </SqlProcedure>
+        <SqlProcedure>
+          <Key>CreateMembershipUser</Key>
+          <Value>aspnet_Membership_CreateUser</Value>
+        </SqlProcedure>
+        <SqlProcedure>
+          <Key>GetUserByName</Key>
+          <Value>aspnet_Membership_GetUserByName</Value>
+        </SqlProcedure>
+        <SqlProcedure>
+          <Key>GetApplicationId</Key>
+          <Value>aspnet_Personalization_GetApplicationId</Value>
+        </SqlProcedure>
+        <SqlProcedure>
+          <Key>GetAllRoles</Key>
+          <Value>aspnet_Roles_GetAllRoles</Value>
+        </SqlProcedure>
+        <SqlProcedure>
+          <Key>CreateUsersUser</Key>
+          <Value>aspnet_Users_CreateUser</Value>
+        </SqlProcedure>
+        <SqlProcedure>
+          <Key>GetRolesForUser</Key>
+          <Value>aspnet_UsersInRoles_GetRolesForUser</Value>
+        </SqlProcedure>
+      </SqlProcedures>
+    </SqlConnection>
+  </SqlConnections>
+</AEPTexasApplicationSettings>
+<!--
+<SqlProcedure>
+  <Key></Key>
+  <Value></Value>
+</SqlProcedure>
+-->
+

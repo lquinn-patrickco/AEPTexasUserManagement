@@ -1,0 +1,60 @@
+﻿
+Setting up a custom identity store using ASP.NET
+http://resources.arcgis.com/en/help/main/10.2/index.html#//0154000005v5000000
+
+
+Sample Identity Store configuration JSON
+
+
+User Store JSON
+
+
+
+{
+  "type": "ASP_NET",
+  "class": "CustomProvider.XmlMembershipProvider,CustomProvider,Version=1.0.0.0,Culture=Neutral,PublicKeyToken=b02390eb7f2c02c4",
+  "properties": {
+    "FileName": "C:\\arcgisserver\\identitystore\\IdentityStore.xml"
+  }
+}
+
+
+
+
+Role Store JSON
+
+
+
+{
+  "type": "ASP_NET",
+  "class": "CustomProvider.XmlRoleProvider,CustomProvider,Version=1.0.0.0,Culture=Neutral,PublicKeyToken=b02390eb7f2c02c4",
+  "properties": {
+    "FileName": "C:\\arcgisserver\\identitystore\\IdentityStore.xml"
+  }
+}
+
+
+
+
+Sample Identity Store
+
+
+
+<IdentityStore>
+  <User>
+    <UserName>amy</UserName>
+    <Password>amy</Password>
+    <FullName>amy</FullName>
+    <Email>amy@amy.amy</Email>
+    <Roles>admins</Roles>
+  </User>
+  <Role>
+    <RoleName>admins</RoleName>
+  </Role>
+</IdentityStore>
+
+
+
+ArcGIS 10.2 Web Adaptor (IIS) .NET 4 Support and Trust Patch
+http://support.esri.com/en/downloads/patches-servicepacks/view/productid/211/metaid/2011
+

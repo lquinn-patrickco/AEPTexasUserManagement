@@ -1,0 +1,10 @@
+C:\Users\lquinn\Projects\Working\AEPTexas\AEP Texas User Management Application\AEPTexasUserMngmnt\bin\AEPTexasUserMngmnt.dll.config
+C:\Users\lquinn\Projects\Working\AEPTexas\AEP Texas User Management Application\AEPTexasUserMngmnt\bin\AEPTexasUserMngmnt.dll
+C:\Users\lquinn\Projects\Working\AEPTexas\AEP Texas User Management Application\AEPTexasUserMngmnt\bin\AEPTexasUserMngmnt.pdb
+C:\Users\lquinn\Projects\Working\AEPTexas\AEP Texas User Management Application\AEPTexasUserMngmnt\bin\ESRI.ArcGIS.ADF.Connection.dll
+C:\Users\lquinn\Projects\Working\AEPTexas\AEP Texas User Management Application\AEPTexasUserMngmnt\bin\ESRI.ArcGIS.ADF.dll
+C:\Users\lquinn\Projects\Working\AEPTexas\AEP Texas User Management Application\AEPTexasUserMngmnt\bin\ESRI.ArcGIS.ADF.xml
+C:\Users\lquinn\Projects\Working\AEPTexas\AEP Texas User Management Application\AEPTexasUserMngmnt\bin\ESRI.ArcGIS.ADF.Connection.xml
+C:\Users\lquinn\Projects\Working\AEPTexas\AEP Texas User Management Application\AEPTexasUserMngmnt\obj\Debug\AEPTexasUserMngmnt.dll
+C:\Users\lquinn\Projects\Working\AEPTexas\AEP Texas User Management Application\AEPTexasUserMngmnt\obj\Debug\AEPTexasUserMngmnt.pdb
+C:\Users\lquinn\Projects\Working\AEPTexas\AEP Texas User Management Application\AEPTexasUserMngmnt\obj\Debug\AEPTexasUserMngmnt.csprojResolveAssemblyReference.cache

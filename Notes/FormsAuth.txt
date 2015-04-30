@@ -1,0 +1,40 @@
+﻿Internet security overview:  http://help.arcgis.com/en/arcgisserver/10.0/help/arcgis_server_dotnet_help/index.html#/Internet_security_overview/0093000000pp000000/
+
+Securing Web applications:  http://help.arcgis.com/en/arcgisserver/10.0/help/arcgis_server_dotnet_help/index.html#//0093000000q8000000.htm
+
+
+Setting up users and roles in SQL Server:  http://help.arcgis.com/en/arcgisserver/10.0/help/arcgis_server_dotnet_help/index.html#/Setting_up_users_and_roles_in_SQL_Server/0093000000q0000000/
+
+
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+.brand{float:left;display:block;padding:10px 20px 10px;margin-left:-20px;font-size:20px;font-weight:200;color:#777777;text-shadow:0 1px 0 #ffffff;
+
+
+
+Column Name
+
+Column Type
+
+Description
+
+ApplicationId uniqueidentifier Application ID 
+UserId uniqueidentifier User ID 
+Password nvarchar(128) Password (plaintext, hashed, or encrypted; base-64-encoded if hashed or encrypted) 
+PasswordFormat int Password format (0=Plaintext, 1=Hashed, 2=Encrypted) 
+PasswordSalt nvarchar(128) Randomly generated 128-bit value used to salt password hashes; stored in base-64-encoded form 
+MobilePIN nvarchar(16) User's mobile PIN (currently not used) 
+Email nvarchar(256) User's e-mail address 
+LoweredEmail nvarchar(256) User's e-mail address (lowercase) 
+PasswordQuestion nvarchar(256) Password question 
+PasswordAnswer nvarchar(128) Answer to password question 
+IsApproved bit 1=Approved, 0=Not approved 
+IsLockedOut bit 1=Locked out, 0=Not locked out 
+CreateDate datetime Date and time this account was created 
+LastLoginDate datetime Date and time of this user's last login 
+LastPasswordChangedDate datetime Date and time this user's password was last changed 
+LastLockoutDate datetime Date and time this user was last locked out 
+FailedPasswordAttemptCount int Number of consecutive failed login attempts 
+FailedPasswordAttempt-WindowStart datetime Date and time of first failed login if FailedPasswordAttemptCount is nonzero 
+FailedPasswordAnswer-AttemptCount int Number of consecutive failed password answer attempts 
+FailedPasswordAnswer-AttemptWindowStart datetime Date and time of first failed password answer if FailedPasswordAnswerAttemptCount is nonzero 
+Comment ntext Additional text 
